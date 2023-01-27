@@ -1,0 +1,3 @@
+# In Unbuntu command line julien@MFN0665:/mnt/e/shauna_db$ 
+
+grep -c ">" *.fa # gets all .fa files and counts the items within it. 
