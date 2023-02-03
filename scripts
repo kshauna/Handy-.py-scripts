@@ -1,3 +1,7 @@
 # In Unbuntu command line julien@MFN0665:/mnt/e/shauna_db$ 
 
 grep -c ">" *.fa # gets all .fa files and counts the items within it. 
+
+wc -l 20220812_CNPRPH5k_sup.fastq # counts all the lines in a file.
+
+cat 20220812_CNPRPH5k_sup.fastq ../../../20220826_CN_PR_5K_RAN/Raw/fastq_sup/20220826_CNPR5kRAN_sup.fastq > 2022Aug08-26_combined_sup.fastq # concatenates two files into one combined file.
